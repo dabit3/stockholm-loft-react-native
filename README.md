@@ -144,7 +144,7 @@ import { withAuthenticator } from 'aws-amplify-react-native'
 Next, we'll wrap our default export (the App component) with the `withAuthenticator` HOC:
 
 ```js
-export default withAuthenticator(App, { includeGreetings: true })
+export default withAuthenticator(App)
 ```
 
 Now, we can run the app and see that an Authentication flow has been added in front of our App component. This flow gives users the ability to sign up & sign in.
